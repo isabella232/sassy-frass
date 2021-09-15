@@ -72,7 +72,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -99,15 +99,14 @@ name = liga;
 fontMaster = (
 {
 alignmentZones = (
-"{951, 24}",
-"{720, 0}",
-"{391, 28}",
-"{-49, -42}",
-"{-263, -6}"
+"{840, 15}",
+"{710, 20}",
+"{340, 15}",
+"{0, -20}",
+"{-430, -15}"
 );
-ascender = 1100;
-capHeight = 769;
-custom = ROB;
+ascender = 710;
+capHeight = 840;
 customParameters = (
 {
 name = typoAscender;
@@ -122,20 +121,24 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 1100;
-},
-{
-name = winDescent;
-value = 450;
-},
-{
 name = hheaAscender;
 value = 1100;
 },
 {
 name = hheaDescender;
 value = -450;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1100;
+},
+{
+name = winDescent;
+value = 450;
 },
 {
 name = strikeoutPosition;
@@ -154,7 +157,7 @@ name = underlineThickness;
 value = 20;
 }
 );
-descender = -450;
+descender = -430;
 guideLines = (
 {
 locked = 1;
@@ -181,7 +184,7 @@ GSOffsetVertical = 10;
 };
 weightValue = 400;
 widthValue = 5;
-xHeight = 339;
+xHeight = 340;
 }
 );
 glyphs = (
@@ -19108,7 +19111,7 @@ unicode = 00DE;
 },
 {
 glyphname = Q;
-lastChange = "2021-09-15 00:52:07 +0000";
+lastChange = "2021-09-15 03:12:58 +0000";
 layers = (
 {
 background = {
@@ -19316,6 +19319,11 @@ nodes = (
 }
 );
 };
+guideLines = (
+{
+position = "{-3073, 340}";
+}
+);
 layerId = "95C423A7-595F-441F-915A-E5EF8B5EF971";
 paths = (
 {
@@ -19376,7 +19384,7 @@ nodes = (
 "21 90 OFFCURVE",
 "34 54 CURVE SMOOTH",
 "69 -43 OFFCURVE",
-"187 -68 OFFCURVE",
+"187 -74 OFFCURVE",
 "278 -67 CURVE SMOOTH",
 "291 -66 LINE",
 "344 -150 OFFCURVE",
@@ -19387,7 +19395,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"138 -34 OFFCURVE",
+"138 -33 OFFCURVE",
 "55 17 OFFCURVE",
 "55 149 CURVE SMOOTH",
 "55 268 OFFCURVE",
@@ -35481,7 +35489,7 @@ unicode = 0142;
 },
 {
 glyphname = m;
-lastChange = "2021-09-15 00:52:07 +0000";
+lastChange = "2021-09-15 01:06:51 +0000";
 layers = (
 {
 background = {
@@ -35598,6 +35606,11 @@ nodes = (
 }
 );
 };
+guideLines = (
+{
+position = "{171, 340}";
+}
+);
 layerId = "95C423A7-595F-441F-915A-E5EF8B5EF971";
 paths = (
 {
@@ -39235,7 +39248,7 @@ unicode = 00FE;
 },
 {
 glyphname = q;
-lastChange = "2021-09-15 00:52:07 +0000";
+lastChange = "2021-09-15 01:09:22 +0000";
 layers = (
 {
 background = {
@@ -39360,32 +39373,59 @@ paths = (
 {
 closed = 1;
 nodes = (
-"445 -508 OFFCURVE",
-"547 -411 OFFCURVE",
+"400 -425 OFFCURVE",
+"428 -442 OFFCURVE",
+"455 -442 CURVE SMOOTH",
+"506 -442 OFFCURVE",
+"554 -381 OFFCURVE",
 "568 -325 CURVE SMOOTH",
-"596 -213 OFFCURVE",
-"521 -124 OFFCURVE",
+"572 -308 OFFCURVE",
+"574 -292 OFFCURVE",
+"574 -277 CURVE SMOOTH",
+"574 -188 OFFCURVE",
+"511 -117 OFFCURVE",
 "453 -74 CURVE SMOOTH",
-"379 -20 OFFCURVE",
-"343 -57 OFFCURVE",
+"426 -55 OFFCURVE",
+"405 -47 OFFCURVE",
+"388 -47 CURVE SMOOTH",
+"366 -47 OFFCURVE",
+"354 -61 OFFCURVE",
+"354 -80 CURVE SMOOTH",
+"354 -86 OFFCURVE",
+"355 -91 OFFCURVE",
 "357 -97 CURVE SMOOTH",
 "367 -126 OFFCURVE",
 "388 -157 OFFCURVE",
 "395 -178 CURVE SMOOTH",
-"398 -188 OFFCURVE",
-"405 -176 OFFCURVE",
+"397 -186 OFFCURVE",
+"403 -179 OFFCURVE",
+"403 -172 CURVE SMOOTH",
+"403 -170 OFFCURVE",
+"403 -169 OFFCURVE",
 "402 -167 CURVE SMOOTH",
-"387 -118 OFFCURVE",
-"380 -86 OFFCURVE",
+"390 -129 OFFCURVE",
+"383 -101 OFFCURVE",
+"383 -84 CURVE SMOOTH",
+"383 -79 OFFCURVE",
+"384 -75 OFFCURVE",
 "385 -72 CURVE SMOOTH",
-"390 -55 OFFCURVE",
-"426 -84 OFFCURVE",
+"386 -68 OFFCURVE",
+"389 -67 OFFCURVE",
+"392 -67 CURVE SMOOTH",
+"405 -67 OFFCURVE",
+"427 -84 OFFCURVE",
 "430 -86 CURVE",
-"498 -136 OFFCURVE",
-"579 -219 OFFCURVE",
+"489 -130 OFFCURVE",
+"559 -198 OFFCURVE",
+"559 -283 CURVE SMOOTH",
+"559 -295 OFFCURVE",
+"557 -308 OFFCURVE",
 "554 -321 CURVE SMOOTH",
-"533 -405 OFFCURVE",
-"458 -452 OFFCURVE",
+"542 -371 OFFCURVE",
+"510 -408 OFFCURVE",
+"475 -408 CURVE SMOOTH",
+"450 -408 OFFCURVE",
+"424 -390 OFFCURVE",
 "401 -348 CURVE SMOOTH",
 "333 -223 OFFCURVE",
 "316 37 OFFCURVE",
@@ -39421,11 +39461,11 @@ nodes = (
 "65 131 OFFCURVE",
 "165 317 OFFCURVE",
 "259 335 CURVE SMOOTH",
-"271 337 OFFCURVE",
-"284 338 OFFCURVE",
-"296 338 CURVE SMOOTH",
-"305 338 OFFCURVE",
-"318 339 OFFCURVE",
+"273 337 OFFCURVE",
+"287 338 OFFCURVE",
+"301 338 CURVE SMOOTH",
+"309 338 OFFCURVE",
+"319 337 OFFCURVE",
 "322 329 CURVE",
 "324 326 OFFCURVE",
 "325 320 OFFCURVE",
