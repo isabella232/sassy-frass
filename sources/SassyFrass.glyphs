@@ -151,11 +151,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 760;
+value = 800;
 },
 {
 name = winDescent;
-value = 285;
+value = 300;
 },
 {
 name = strikeoutPosition;
@@ -44013,7 +44013,7 @@ unicode = 2013;
 },
 {
 glyphname = emdash;
-lastChange = "2021-10-09 01:58:11 +0000";
+lastChange = "2021-10-09 03:13:18 +0000";
 layers = (
 {
 background = {
@@ -44066,7 +44066,7 @@ nodes = (
 );
 }
 );
-width = 491;
+width = 492;
 }
 );
 leftMetricsKey = hyphen;
@@ -67739,5 +67739,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 10;
 }
